@@ -1,0 +1,122 @@
+body {
+background-color: #f8f8f8;
+
+}
+
+.header {
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight: bold;
+  /*text-align: center;*/
+}
+.header a:hover{
+
+  color: hotpink;
+}
+
+
+h2 {
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #eaeaea;
+}
+
+.description + p {
+  color: #707070;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 16px;
+
+}
+
+.feature {
+color: #484343;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+}
+
+.fullDescription{
+color: #484343;
+font-size: 14px;
+font-family: fantasy;
+font-style: italic;
+list-style-image: url(img/sis.jpg);
+}
+.fullDescription li{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.Feedback textarea {
+  width: 300px;
+  height: 150px;
+  font-style: italic;
+  color: pink;
+}
+
+.Feedback input[type="text"], textarea{
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.Feedback input[type="email"]:checked{
+  background-color: hotpink;
+  color: white;
+}
+
+.catalog img:hover{
+border-style: unset;
+  padding: 4px;
+}
+
+.catalog img {
+  border-style: solid;
+  border-width: 4px;
+  border-color: pink;
+
+}
+.descriptionTables{
+  border: 2px solid black;
+  border-collapse: collapse;
+  border-radius: 20px;
+
+}
+.descriptionTables td{
+  border: 1px solid gray;
+  padding: 5px;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+
+}
+.descriptionTables tr:last-child td:last-child{
+  border-bottom-right-radius: 20px;
+
+}
+.descriptionTables tr:first-child td:first-child{
+  border-bottom-left-radius: 20px;
+
+}
+
+
+.descriptionTables td:hover{
+  background-color: hotpink;
+  font-size: 1.3em;
+}
+
+.descriptionTables tr:first-child {
+  height: 75px;
+}
+
+.product p:first-letter{
+  font-family: Chandas;
+  font-size: 50px;
+  color: red;
+  font-weight: bold;
+  font-style: italic;
+}
+
