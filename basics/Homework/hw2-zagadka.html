@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title>ДЗ1-Загадка</title>
+    <meta content="">
+    <style></style>
+  </head>
+  <body>
+
+  
+  
+  
+  </body>
+<script>
+  let score = 0;
+let question1 = prompt("Не скамейка, а свестит??? ");
+question1 = question1.toLowerCase(); //перевод в нижний регистр
+if (question1 == "свисток"){
+  alert("Поздравляем, это действительно " + question1);
+  score ++;
+} else {
+  alert("НЕ УГАДАЛ BEACH !!!!");
+}
+
+let question2 = prompt("Номер паспорта? ");
+question2 = question2.toLowerCase();
+if(question2 == "пельмени"){
+  alert("Поздравляем, это действительно " + question2);
+  score ++;
+} else {
+  alert("НЕ УГАДАЛ BEACH !!!!");
+}
+
+let question3 = prompt("Елка? ");
+question3 = question3.toLowerCase();
+if(question3 == "елка"){
+  alert("Поздравляем, это действительно " + question3);
+  score ++;
+} else {
+  alert("НЕ УГАДАЛ BEACH !!!!");
+}
+alert("Вы набрали " + score + " Очка, ПОЗДРАВЛЯЕМ");
+
+
+</script>
+
+</html>
