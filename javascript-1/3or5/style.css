@@ -1,0 +1,24 @@
+.container{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.block_container{
+
+    width: 100%;
+    height: 600px;
+    background-color: bisque;
+    padding-top: 200px;
+
+
+}
+
+.block {
+    width: 600px;
+    height: 400px;
+    margin-left: 300px;
+    background-color: chocolate;
+    text-align: center;
+
+
+}

@@ -1,30 +1,90 @@
-let count = 0;
 
-/**
- * Функция выполгиющая ДЗ 1 урок.
- */
-function counting(){
-    for (i = 1; i < 101; i++){
-        if ((count % 3) == 0 && (count % 5) != 0 ) {
-            console.log('fizz');
+let containerBlockHeight;
+let containerBlockWidth;
+let moveedBlock;
 
-        } else if ((count % 5) == 0 && (count % 3) != 0 ) {
-            console.log('Buzz');
 
-        }  else if ((count % 3) == 0 && (count % 5) == 0 ) {
-            console.log('FizzBuzz');
-        }  else {
 
-            console.log(count);
+
+
+function init(){
+
+    // containerBlockHeight = $('.block_container').height();
+    // containerBlockHeight = document.getElementById('block_container').offsetHeight;
+    containerBlockWidth = $('.block_container').width();
+    moveedBlock = $('.block').position().left;
+
+    console.log(moveedBlock);
+
+}
+
+function moveToRight(){
+    setTimeout(function () {
+            if (moveedBlock < containerBlockWidth ) {
+            moveedBlock = moveedBlock + 30;
+                $('.block').css('left', moveedBlock);
+            console.log(moveedBlock);
         }
-
-        count++;
-
-    }
-
-
-    }
+        moveToRight()
+    }, 20);
+    
+}
 
 
-// запускаю функцию вывода в консоль чисел
-counting();
+
+
+// function moveToSmall(){
+//     setTimeout(function () {
+//         if (containerBlockHeight > 0){
+//             containerBlockHeight = containerBlockHeight - 10;
+//             $('.block_container').css('height', (containerBlockHeight + 'px'));
+//             console.log(containerBlockHeight);
+//         }
+//         moveToSmall()
+//     }, 50);
+//
+// }
+
+
+
+init();
+moveToRight();
+// moveToSmall();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
