@@ -1,0 +1,39 @@
+.container{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.battlefield{
+    width: 100%;
+    height: 600px;
+    background-color: chocolate;
+}
+
+.ming_field{
+    width: calc(50% - 40px);
+    margin-left: 20px;
+    background-color: darkgray;
+    height: 400px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.human_field{
+    width: calc(50% - 40px);
+    margin-right: 20px;
+    background-color: green;
+    height: 400px;
+    float: right;
+}
+
+#fight{
+    display: block;
+    clear: both;
+    width: 200px;
+    height: 30px;
+    margin-left: calc(50% - 100px);
+
+}
+h1{
+    text-align: center;
+}
