@@ -19,14 +19,19 @@ function init() {
 }
 
 
+function end(result) {
+    $('.ming_field').text('минимум жмзней' + mingHealthStat + 'maxPotionPlus' + maxPotionPlus + 'maxWeaponPower' + maxWeaponPower
+        + 'maxHealth' + maxHealth + 'minHealth' + minHealth);
+    if (result == "loose"){
+        alert("МИНГ ПОРАБОТИЛ ЗЕМЛЮ !!!");
+    } else if (result == "won"){
+        alert("МИНГ УБИТ УРАААААА !!!");
+    }
 
+}
 
 function fight(){
-    function end() {
-        $('.ming_field').text('минимум жмзней' + mingHealthStat + 'maxPotionPlus' + maxPotionPlus + 'maxWeaponPower' + maxWeaponPower
-            + 'maxHealth' + maxHealth + 'minHealth' + minHealth);
 
-    }
 
     function mingHealth() {
         potionPlus = parseInt(prompt('Введите силу снадобья'));
@@ -35,8 +40,9 @@ function fight(){
             maxPotionPlus = potionPlus;
         }
         if (mingHealthStat >= 100){
-            alert("МИНГ ПОРАБОТИЛ ЗЕМЛЮ !!!");
-            end();
+
+            end("loose");
+
         }
 
 
@@ -52,8 +58,8 @@ function fight(){
         countMove++;
         mingHealthStat = mingHealthStat - power;
         if (mingHealthStat <= 0){
-            alert("МИНГ УБИТ УРАААААА !!!");
-            end();
+
+            end("won");
 
         }
         if (mingHealthStat > maxHealth){
