@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4463e68e-f262-49d5-8418-f75a7969e338" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/javascript-1/3or5/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript-1/3or5/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript-1/3or5/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascript-1/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript-1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javascript-1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript-1/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript-1/script.js" afterDir="false" />
-    </list>
+    <list default="true" id="4463e68e-f262-49d5-8418-f75a7969e338" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +12,7 @@
     <session id="958869174">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.14" value="2" />
           <entry key="project.opened" value="4" />
@@ -157,7 +149,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536773695626" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536773696659" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -192,12 +184,12 @@
       <workItem from="1536306912555" duration="111000" />
       <workItem from="1536572043337" duration="2071000" />
       <workItem from="1536574150096" duration="138000" />
-      <workItem from="1536767886670" duration="5807000" />
+      <workItem from="1536767886670" duration="5875000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8127000" />
+    <option name="totallyTimeSpent" value="8195000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -210,7 +202,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="732" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26136363" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
