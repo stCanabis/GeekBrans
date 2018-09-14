@@ -42,19 +42,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
         function testFunction () {
 
             let object = {};
@@ -63,32 +50,14 @@
 
 
             console.log(objects);
-            switch (number.length) {
-                case 3:
-                    object.id = id;
-                    object['сотни'] = number.charAt(0);
-                    object['десятки'] = number.charAt(1);
-                    object['еденицы'] = number.charAt(2);
-                    id++;
-                    break;
 
-                case 2:
-                    number = '0' + number;
-                    object.id = id;
+                   for (i = number.length; i < 3; i++){
+                       number = '0' + number;
+                   }
                     object['сотни'] = number.charAt(0);
                     object['десятки'] = number.charAt(1);
                     object['еденицы'] = number.charAt(2);
                     id++;
-                    break;
-                case 1:
-                    number = '00' + number;
-                    object.id = id;
-                    object['сотни'] = number.charAt(0);
-                    object['десятки'] = number.charAt(1);
-                    object['еденицы'] = number.charAt(2);
-                    id++;
-                    break;
-            }
             objects.push(object);
 
 
