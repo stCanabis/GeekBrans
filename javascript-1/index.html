@@ -49,17 +49,18 @@
 
 
 
-            console.log(objects);
+
 
                    for (i = number.length; i < 3; i++){
                        number = '0' + number;
                    }
+                    object.id = id;
                     object['сотни'] = number.charAt(0);
                     object['десятки'] = number.charAt(1);
                     object['еденицы'] = number.charAt(2);
                     id++;
             objects.push(object);
-
+            console.log(objects);
 
     };
 

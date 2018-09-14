@@ -5,39 +5,61 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        .letter{
+            margin: 50px auto;
+            width: 800px;
+            height: 400px;
+            background-color: chocolate;
+        }
+
+    </style>
     <title>от 0 до 999 в объект</title>
 </head>
 <body>
 
-<button id="test"  >NUMBER</button>
+<button id="testBtn"  >Введите текст (поиск буквы "В")</button>
+
+<div class="letter" id="letter"></div>
+
 <script>
 
-    let obj = {
-        id: function(){
-            let idNumber = '1';
-            return idNumber;
+    document.getElementById('testBtn').onclick = findLetterFunction;
+    let allDataArrey = [];
+
+
+    function findLetterFunction() {
+        let stringToFind = prompt("Введите строку").toLowerCase();
+        let foundedLetters = [];
+        if (stringToFind == 'exit'){
+            testFunction();
         }
-    };
+        for (i = 0; i < stringToFind.length; i++){
+            if (stringToFind.charAt(i) == 'в'){
+                let foundLetter = {};
+                foundLetter.position = i;
+                foundLetter.string = stringToFind;
+                foundedLetters.push(foundLetter);
+
+            }
+        }
+        allDataArrey.push(foundedLetters);
+
+        let test = JSON.stringify(allDataArrey);
+
+        document.getElementById("letter").innerText = test;
+        console.log(JSON.parse(test));
 
 
 
 
+    }
 
-    obj.name = 'Васян';
-    obj.soname = 'Писькин';
+    function testFunction() {
+        alert('exit!');
 
+    }
 
-
-
-
-
-
-
-
-
-
-
-    console.log(obj);
 
 </script>
 </body>
