@@ -9,8 +9,7 @@ let moveedBlock;
 
 function init(){
 
-    // containerBlockHeight = $('.block_container').height();
-    // containerBlockHeight = document.getElementById('block_container').offsetHeight;
+
     containerBlockWidth = $('.block_container').width();
     moveedBlock = $('.block').position().left;
 
