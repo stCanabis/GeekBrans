@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+
+
+    </style>
+    <title>Работа с объектами</title>
+</head>
+<body>
+
+<script>
+let object = {
+    name: 'АнZAZдрsdarе12й',
+    soname: 'Лаптев',
+    car: {
+        brend: 'Honda',
+        model: 'Avancier',
+        engin: '2.3',
+        AWD: true
+    },
+    license: {
+        a : false,
+        b : true,
+        c : false,
+        d : false,
+        e : false
+    }
+};
+
+/**
+ *Проверить, нет ли в ФИО опечаток (ненужных символов)
+ */
+function checkNameDataFunction(data1) {
+
+    for (key in data1){
+
+
+        if (key == 'name'){
+            data1[key] = data1[key].replace(/[0-9A-Za-z]/g, '!');
+
+            console.log(data1[key]);
+        }
+
+        if (key == 'license'){
+            for (key1 in data1[key]){
+
+                data1[key][key1] == true ? function () {
+                    console.log('Есть права категории: ' + key1 + ' т.к. значение: ' + data1[key][key1]);
+                }() : function () {
+                    console.log('Нет прав категории: ' + key1 + ' т.к. значение: ' + data1[key][key1]);
+                }();
+
+
+
+
+                //
+                // if (data1[key][key1] == true){
+                //     console.log('Есть права категории: ' + key1 + ' т.к. значение: ' + data1[key][key1]);
+                // }
+            }
+
+        }
+    }
+
+
+
+
+    console.log(object);
+}
+
+
+
+
+checkNameDataFunction(object);
+</script>
+</body>
+</html>
