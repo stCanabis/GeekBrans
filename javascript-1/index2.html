@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        .letter{
+            margin: 50px auto;
+            width: 800px;
+            height: 400px;
+            background-color: chocolate;
+        }
+
+    </style>
+    <title>от 0 до 999 в объект</title>
+</head>
+<body>
+
+<button id="testBtn"  >Введите текст (поиск буквы "В")</button>
+<button id="testBtn2"  >Введите текст (поиск буквы "В")</button>
+
+<div class="letter" id="letter"></div>
+
+<script>
+
+    document.getElementById('testBtn').onclick = findLetterFunction;
+    // document.getElementById('testBtn2').onclick = testReturn;
+    let allDataArrey = [];
+
+    // function testReturn() {
+    //     for (i = 0; i < allDataArrey.length; i++){
+    //         let foundedObject = allDataArrey[i];
+    //         for (n = 0; n < foundedObject.length; n++){
+    //
+    //         }
+    //
+    //
+    //     }
+    // }
+
+
+    function findLetterFunction() {
+        let stringToFind = prompt("Введите строку").toLowerCase();
+        let foundedLetters = [];
+        if (stringToFind == 'exit'){
+            testFunction();
+        }
+        for (i = 0; i < stringToFind.length; i++){
+            if (stringToFind.charAt(i) == 'в'){
+                let foundLetter = {};
+                foundLetter.position = i;
+                foundLetter.string = stringToFind;
+                foundedLetters.push(foundLetter);
+
+            }
+        }
+        allDataArrey.push(foundedLetters);
+
+        let test = JSON.stringify(allDataArrey);
+
+        document.getElementById("letter").innerText = test;
+        console.log(JSON.parse(test));
+
+
+
+
+    }
+
+    function testFunction() {
+        alert('exit!');
+
+    }
+
+
+</script>
+</body>
+</html>
