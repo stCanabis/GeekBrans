@@ -1,0 +1,33 @@
+.container{
+    margin: 0 auto;
+    width: 1200px;
+    height: 500px;
+    background-color: chocolate;
+
+}
+
+.block{
+    float: left;
+    width: 400px;
+    height: 400px;
+    outline: 2px solid #ffffff;
+    overflow: auto;
+
+}
+
+.block button{
+    display: block;
+    width: 100px;
+    margin-left: calc(50% - 50px);
+
+}
+.blockInBlock{
+    border-radius: 25px;
+    line-height: 50px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    float: left;
+
+}
