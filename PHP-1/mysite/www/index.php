@@ -1,62 +1,153 @@
 <?php
-$h1='Hello, World !!!';
-$title = 'First lesson';
-$year = 2018;
+//echo "Hello, World!";
+//
+////
+//$a = 7;
+//
+//
+//switch ($a){
+//    case 7:
+//        echo 7;
+//    case 8:
+//        echo 8;
+//    case 9:
+//        echo 9;
+//    case 10:
+//        echo 10;
+//    case 11:
+//        echo 11;
+//    case 12:
+//        echo 12;
+//    case 13:
+//        echo 13;
+//    case 14:
+//        echo 14;
+//    case 15:
+//        echo 15;
+//        break;
+//}
+
+
+function power($arg1, $arg2){
+    if ($arg2 == 0){
+        return 1;
+    } elseif ($arg2 == 1){
+        return "$arg1";
+    } elseif ($arg2 > 1){
+        return ($arg1 * power($arg1, $arg2-1));
+    }
+
+}
+
+echo power(2,4);
+
+
+
+
+//
+//
+//$plus = plus(15,12);
+//$minus = minus(100,5);
+//$proizv = proizv(10,5000);
+//$delenie = delenie(25,5);
+//
+//
+//function mathOper ($arg1, $arg2, $operation){
+//    switch ($operation){
+//        case "деление" :
+//            return delenie($arg1,$arg2);
+//
+//        case "умножение" :
+//            return proizv($arg1,$arg2);
+//
+//        case "сложение" :
+//            return plus($arg1,$arg2);
+//
+//        case "вычетание" :
+//            return minus($arg1,$arg2);
+//
+//        default :
+//            echo "Неправильная операция";
+//            break;
+//    }
+//
+//
+//
+//}
+//
+//echo mathOper(30,20,"сложение");
+
+//
+//power(2, 3);
+//
+//
+//
+//
+//
+//function power($arg1, $arg2){
+//    if ($arg2 > 0){
+//        $arg1 = $arg1 * $arg1;
+//        echo $arg1;
+//        $arg2--;
+//        echo $arg2;
+////        power(arg1,$arg2);
+//
+//    }
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
+//function plus ($a, $b){
+//    return $a + $b;
+//}
+//
+//function minus ($a, $b){
+//    return $a - $b;
+//}
+//
+//function proizv ($prA, $prB){
+//    return $prA * $prB;
+//}
+//
+//function delenie($delA, $delB){
+//    return $delA / $delB;
+//}
+
+
+//echo "<br> $plus <br> $minus <br> $proizv <br> $delenie <br>";
+
+
+
+
+
+
+
+
+//$a = 5;
+//$b = 10;
+//
+//if ($a > 0 && $b > 0){
+//    echo $a - $b;
+//} elseif ($a < 0 && $b < 0){
+//    echo $a * $b;
+//} elseif ($a < 0 && $b > 0 || $a > 0 && $b < 0){
+//    echo $a + $b;
+//}
+
+
+
+
 ?>
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-	<meta name="author" content="Luka Cvrk (www.solucija.com)" />
-	<link rel="stylesheet" href="css/main.css" type="text/css" />
-	<title>
-        <?php echo "$title" ?>
-    </title>
-</head>
-<body>
-	<div id="content">
-		<h1>
-            <?php echo "$h1" ?>
-        </h1>
-
-		<ul id="menu">
-			<li><a href="#">home</a></li>
-			<li><a href="#">archive</a></li>
-			<li><a href="#">contact</a></li>
-		</ul>
-
-		<div class="post">
-			<div class="details">
-				<h2><a href="#">Nunc commodo euismod massa quis vestibulum</a></h2>
-				<p class="info">posted 3 hours ago in <a href="#">general</a></p>
-
-			</div>
-			<div class="body">
-				<p>Nunc eget nunc libero. Nunc commodo euismod massa quis vestibulum. Proin mi nibh, dignissim a pellentesque at, ultricies sit amet sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel lorem eu libero laoreet facilisis. Aenean placerat, ligula quis placerat iaculis, mi magna luctus nibh, adipiscing pretium erat neque vitae augue. Quisque consectetur odio ut sem semper commodo. Maecenas iaculis leo a ligula euismod condimentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut enim risus, rhoncus sit amet ultricies vel, aliquet ut dolor. Duis iaculis urna vel massa ultricies suscipit. Phasellus diam sapien, fermentum a eleifend non, luctus non augue. Quisque scelerisque purus quis eros sollicitudin gravida. Aliquam erat volutpat. Donec a sem consequat tortor posuere dignissim sit amet at ipsum.</p>
-			</div>
-			<div class="x"></div>
-		</div>
-
-		<div class="col">
-			<h3><a href="#">Ut enim risus rhoncus</a></h3>
-			<p>Quisque consectetur odio ut sem semper commodo. Maecenas iaculis leo a ligula euismod condimentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut enim risus, rhoncus sit amet ultricies vel, aliquet ut dolor. Duis iaculis urna vel massa ultricies suscipit. Phasellus diam sapien, fermentum a eleifend non, luctus non augue. Quisque scelerisque purus quis eros sollicitudin gravida. Aliquam erat volutpat. Donec a sem consequat tortor posuere dignissim sit amet at.</p>
-			<p>&not; <a href="#">read more</a></p>
-		</div>
-		<div class="col">
-			<h3><a href="#">Maecenas iaculis leo</a></h3>
-			<p>Quisque consectetur odio ut sem semper commodo. Maecenas iaculis leo a ligula euismod condimentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut enim risus, rhoncus sit amet ultricies vel, aliquet ut dolor. Duis iaculis urna vel massa ultricies suscipit. Phasellus diam sapien, fermentum a eleifend non, luctus non augue. Quisque scelerisque purus quis eros sollicitudin gravida. Aliquam erat volutpat. Donec a sem consequat tortor posuere dignissim sit amet at.</p>
-			<p>&not; <a href="#">read more</a></p>
-		</div>
-		<div class="col last">
-			<h3><a href="#">Quisque consectetur odio</a></h3>
-			<p>Quisque consectetur odio ut sem semper commodo. Maecenas iaculis leo a ligula euismod condimentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut enim risus, rhoncus sit amet ultricies vel, aliquet ut dolor. Duis iaculis urna vel massa ultricies suscipit. Phasellus diam sapien, fermentum a eleifend non, luctus non augue. Quisque scelerisque purus quis eros sollicitudin gravida. Aliquam erat volutpat. Donec a sem consequat tortor posuere dignissim sit amet at.</p>
-			<p>&not; <a href="#">read more</a></p>
-		</div>
-
-		<div id="footer">
-			<p>Copyright &copy; <em>minimalistica</em> &middot; Design: Luka Cvrk, <a href="http://www.solucija.com/" title="Free CSS Templates">Solucija <?php echo "$year" ?></a></p>
-		</div>
-	</div>
-</body>
-</html>

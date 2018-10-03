@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c6b982-4df0-4a88-8df7-5bbd71525f87" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/PHP-1/mysite/www/hw1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP-1/mysite/www/hw3.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PHP-1/mysite/www/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP-1/mysite/www/index.php" afterDir="false" />
     </list>
@@ -15,23 +17,25 @@
     <session id="958869174">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="2" />
-          <entry key="desktop" value="2" />
+          <entry key="desktop" value="3" />
           <entry key="html" value="12" />
           <entry key="js" value="5" />
-          <entry key="php" value="1" />
+          <entry key="php" value="5" />
           <entry key="rnc" value="1" />
         </counts>
       </usages-collector>
@@ -40,8 +44,8 @@
           <entry key="CSS" value="2" />
           <entry key="HTML" value="12" />
           <entry key="JavaScript" value="5" />
-          <entry key="PHP" value="1" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="PHP" value="5" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="RNG Compact" value="1" />
         </counts>
       </usages-collector>
@@ -50,32 +54,49 @@
           <entry key="css" value="31" />
           <entry key="html" value="1864" />
           <entry key="js" value="939" />
-          <entry key="php" value="246" />
+          <entry key="php" value="4162" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="31" />
-          <entry key="HTML" value="1864" />
+          <entry key="HTML" value="1865" />
           <entry key="JavaScript" value="939" />
-          <entry key="PHP" value="246" />
+          <entry key="PHP" value="4161" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PHP-1/mysite/www/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="780">
+              <caret line="52" column="2" selection-start-line="52" selection-start-column="2" selection-end-line="53" selection-end-column="2" />
               <folding>
-                <element signature="e#2438#2443#0#HTML" expanded="true" />
-                <element signature="e#3074#3079#0#HTML" expanded="true" />
-                <element signature="e#3719#3724#0#HTML" expanded="true" />
-                <element signature="e#3801#3807#0#HTML" expanded="true" />
-                <element signature="e#3831#3839#0#HTML" expanded="true" />
+                <element signature="e#6#29#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PHP-1/mysite/www/hw1.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PHP-1/mysite/www/hw3.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="67" column="72" lean-forward="true" selection-start-line="67" selection-start-column="72" selection-end-line="67" selection-end-column="72" />
+              <folding>
+                <element signature="e#339#419#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,6 +112,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ul</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -102,7 +128,10 @@
         <option value="$PROJECT_DIR$/javascript-1/colors_cube/style.css" />
         <option value="$PROJECT_DIR$/javascript-1/colors_cube/index4.html" />
         <option value="$PROJECT_DIR$/javascript-1/colors_cube/script.js" />
+        <option value="$PROJECT_DIR$/PHP-1/mysite/www/hw2.php" />
         <option value="$PROJECT_DIR$/PHP-1/mysite/www/index.php" />
+        <option value="$PROJECT_DIR$/PHP-1/mysite/www/hw1.php" />
+        <option value="$PROJECT_DIR$/PHP-1/mysite/www/hw3.php" />
       </list>
     </option>
   </component>
@@ -113,10 +142,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="318" />
+    <option name="x" value="322" />
     <option name="y" value="30" />
-    <option name="width" value="892" />
-    <option name="height" value="483" />
+    <option name="width" value="882" />
+    <option name="height" value="482" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -130,11 +159,6 @@
             <path>
               <item name="GeekBrans" type="b2602c69:ProjectViewProjectNode" />
               <item name="GeekBrans" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GeekBrans" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GeekBrans" type="462c0819:PsiDirectoryNode" />
-              <item name="HTML+CSS" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GeekBrans" type="b2602c69:ProjectViewProjectNode" />
@@ -203,12 +227,14 @@
       <workItem from="1537803131674" duration="69000" />
       <workItem from="1537803236438" duration="5477000" />
       <workItem from="1538239350522" duration="427000" />
-      <workItem from="1538239844427" duration="1453000" />
+      <workItem from="1538239844427" duration="2141000" />
+      <workItem from="1538371186047" duration="6596000" />
+      <workItem from="1538556291750" duration="14500000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18961000" />
+    <option name="totallyTimeSpent" value="40745000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -220,11 +246,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="732" extended-state="6" />
+    <frame x="-4" y="0" width="1374" height="736" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991708" visible="true" weight="0.23787878" />
-      <window_info id="Structure" order="1" sideWeight="0.50082916" side_tool="true" visible="true" weight="0.23787878" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49751243" visible="true" weight="0.16060606" />
+      <window_info id="Structure" order="1" sideWeight="0.50248754" side_tool="true" weight="0.24166666" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -238,7 +264,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49924242" weight="0.3283582" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49924242" weight="0.3272727" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49924242" weight="0.32669982" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007576" side_tool="true" weight="0.3283582" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.3283582" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -337,14 +363,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PHP-1/mysite/www/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="780">
+          <caret line="52" column="2" selection-start-line="52" selection-start-column="2" selection-end-line="53" selection-end-column="2" />
           <folding>
-            <element signature="e#2438#2443#0#HTML" expanded="true" />
-            <element signature="e#3074#3079#0#HTML" expanded="true" />
-            <element signature="e#3719#3724#0#HTML" expanded="true" />
-            <element signature="e#3801#3807#0#HTML" expanded="true" />
-            <element signature="e#3831#3839#0#HTML" expanded="true" />
+            <element signature="e#6#29#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-1/mysite/www/hw1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/share/applications/jetbrains-phpstorm.desktop">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP-1/mysite/www/hw3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="67" column="72" lean-forward="true" selection-start-line="67" selection-start-column="72" selection-end-line="67" selection-end-column="72" />
+          <folding>
+            <element signature="e#339#419#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
