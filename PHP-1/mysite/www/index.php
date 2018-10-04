@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Галерея</title>
     <style>
+
         h1{
             text-align: center;
         }
@@ -30,20 +31,16 @@
     </style>
 </head>
 <body>
+
 <h1>Галерея изображений</h1>
 <hr>
 <div class="container">
-    <img src="img/1.jpg" alt="" class="gallery">
-    <img src="img/2.jpg" alt="" class="gallery">
-    <img src="img/3.jpg" alt="" class="gallery">
-    <img src="img/4.jpg" alt="" class="gallery">
-    <img src="img/5.jpg" alt="" class="gallery">
-    <img src="img/6.jpg" alt="" class="gallery">
-    <img src="img/7.jpg" alt="" class="gallery">
+<?php require 'gallery.php'; ?>
+
 </div>
 <div class="form">
     <form action="server.php" method="post" enctype="multipart/form-data">
-        <input type="file" name="myImage">
+        <input multiple type="file" name="myImage[]">
         <input type="submit">
     </form>
 </div>
