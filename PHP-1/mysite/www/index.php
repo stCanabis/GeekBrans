@@ -31,6 +31,8 @@
     </style>
 </head>
 <body>
+<?php include ("config.php"); ?>
+
 
 <h1>Галерея изображений</h1>
 <hr>
