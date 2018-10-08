@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+body{
+    margin: 0px auto;
+    width: 1366px;
+    background-color:rgb(246, 246, 246);
+}
+.header{
+    height: 100px;
+    background-color:  #ffffff;
+}
+.header a{
+    text-decoration: none;
+}
+.logo{
+    display: inline;
+    margin-top: 38px;
+    margin-left: 98px;
+    width: 31px;
+    height: 25px;
+
+
+
+}
+.header ul{
+    float: right;
+    margin-right: 97px;
+    margin-top: 45px;
+    width: 215px;
+
+}
+.header ul li{
+
+    display: inline;
+    margin: auto;
+    list-style-type: none;
+    margin-right: 15px;
+    font-family: Montserrat;
+    font-size: 12px;
+    color:  #191919;
+    font-weight: 500;
+    line-height: 24px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}
+.header ul li:hover{
+color: #10c9c3;
+}
+
+.slogan{
+    clear: both;
+    display: block;
+    height: 313px;
+    text-align: center;
+}
+.slogan h1{
+    margin: 0px;
+    padding-top: 101px;
+    font-family: Montserrat;
+    color:  #171717;
+    font-size: 38px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 500;
+
+    text-align: center;
+}
+.slogan p{
+    font-family: Nunito;
+    color:  #787878;
+    font-size: 18px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+
+    text-align: center;
+    margin-bottom: 97px;
+}
+.gallery {
+    clear: both;
+}
+
+.gallery .img{
+    margin-top: 0px;
+    float: left;
+    width: 341px;
+    height: 300px;
+    background:#838383;
+
+}
+
+.gallery .row:nth-child(2n-1) .img:nth-child(2n){
+    background-color: #dddddd;
+}
+.gallery .row:nth-child(2n) .img:nth-child(2n-1){
+    background-color: #dddddd;
+
+}
+.footer {
+    clear: both;
+    height:284px ;
+    background-color: #141414;
+}
+
+.gallery .img:hover{
+    background-color: rgba(16, 201, 195, 0.85) !important;
+}
