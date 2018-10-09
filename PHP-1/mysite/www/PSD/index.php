@@ -38,6 +38,7 @@
 
 <div class="container">
     <div class="gallery">
+<!--        --><?php //require 'gallery.php';?>
         <div class="row">
 
             <div class="img"></div>

@@ -83,6 +83,10 @@ color: #10c9c3;
     background:#838383;
 
 }
+.gallery .img img {
+    width: 341px;
+    height: 300px;
+}
 
 .gallery .row:nth-child(2n-1) .img:nth-child(2n){
     background-color: #dddddd;
