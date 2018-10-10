@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500,600,800|Nunito+Sans');
+body{
 
+    font-family: Montserrat;
+}
 .header{
     height: 670px;
     background-color: #e9e9e9;
@@ -29,10 +32,10 @@
 .menu li {
     display: inline;
     list-style-type: none;
-    margin-right: 27px;
+    margin-left: 27px;
 }
 .slogan{
-    padding-left: 60px;
+    padding-left: 83px;
     margin-top:170px;
 }
 
@@ -92,3 +95,166 @@
     height: 57px;
     margin-top: 27px;
 }
+
+.profSkill{
+    /*height: 570px;*/
+    background-color: #f8f9f9;
+}
+.profScale{
+    margin: 100px auto;
+    width: 500px;
+
+}
+.profScale h1{
+    font-family: Montserrat;
+    color:  #171717;
+    font-size: 30px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 600;
+    line-height: 84px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}
+.profSkill p{
+    text-transform: uppercase;
+    font-family: Montserrat;
+    color:  #000000;
+    font-size: 12px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 600;
+    line-height: 30px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+
+}
+
+.profImg{
+    height: 570px;
+    background-image: url("../img/1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.count{
+
+    background-color: #10c9c3;
+}
+.count .container{
+
+    font-family: Montserrat;
+    color:  #ffffff;
+    font-size: 12px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 600;
+    line-height: 30px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}
+.count p {
+    font-size: 16px;
+}
+
+.countDiv{
+    text-transform: uppercase;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.galleryImg {
+    height: 300px;
+    background-position: center;
+    background-image: url("../img/2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.loadMore{
+    background-color: #f5f5f5;
+    height: 100px;
+    font-size: 14px;
+    color:  #8e8e8e;
+    font-weight: 600;
+    line-height: 100px;
+    text-align: center;
+}
+
+.ourWorkProcess p{
+    font-family: Nunito Sans;
+    color:  #787878;
+    font-size: 18px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 24px;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+}
+.ourWorkProcess h1{
+    margin-top: 100px;
+    font-family: Montserrat;
+    color:  #191919;
+    font-size: 32px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 600;
+    line-height: 60px;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+}
+
+.videoBloc{
+    background-color: #acd;
+    height: 570px;
+    margin: 100px 0px;
+}
+
+.advantages{
+    padding-top: 40px;
+    padding-bottom: 100px;
+    background-color: #f5f5f5;
+    text-align: center;
+ }
+
+.advantages .icon{
+    margin: 60px auto 22px auto ;
+    width: 40px;
+    height: 40px;
+    background-image: url("img/arc.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.advantages h4{
+    text-transform: uppercase;
+    font-family: Montserrat;
+    color:  #191919;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 600;
+    line-height: 30px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    text-align: center;
+}
+.advantages p{
+    font-family: Nunito Sans;
+    color:  #787878;
+    font-size: 18px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 24px;/* Приближение из-за подстановки шрифтов */
+    text-align: center;
+}
+
+.clients{
+    background-color: #10c9c3;
+    height: 500px;
+}
+
+.clients {
+    padding-top: 158px;
+    text-align: center;
+}
+.clients p {
+    margin-top: 25px;
+}
+.clients li{
+    line-height: inherit;
+    list-style-image: url("img/arc.png");
+}
+
+
+
+
+
+
+
+
+
+
+
