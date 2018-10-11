@@ -95,14 +95,8 @@
 <section class="gallery">
     <div class="container-fluid">
         <div class="row">
-            <div class="galleryImg col-lg-3 col-md-4 col-sm-6"></div>
-            <div class="galleryImg col-lg-3 col-md-4 col-sm-6"></div>
-            <div class="galleryImg col-lg-3 col-md-4 col-sm-6"></div>
-            <div class="galleryImg col-lg-3 col-md-4 col-sm-6"></div>
-            <div class="galleryImg col-lg-3 col-md-4 col-sm-6"></div>
-            <div class="galleryImg col-lg-3 col-md-4 col-sm-6"></div>
-            <div class="galleryImg col-lg-3 col-md-4 col-sm-6"></div>
-            <div class="galleryImg col-lg-3 col-md-4 col-sm-6"></div>
+            <?php require 'gallery.php' ?>
+
         </div>
         <div class="row">
             <div class="loadMore col-lg-12">
@@ -183,15 +177,30 @@
                 </h2>
                 <p>Lorem ipsum.</p>
                 <ul>
-                    <li>*</li>
-                    <li>*</li>
-                    <li>*</li>
+<!--                    <li>*</li>-->
+<!--                    <li>*</li>-->
+<!--                    <li>*</li>-->
                 </ul>
             </div>
         </div>
     </div>
 </section>
 
+<section class="form">
+    <div class="container">
+        <div class="row">
+            <form action="post.php" method="post" enctype="application/x-www-form-urlencoded">
+                <input type="text" name="testInput" id="textInput">
+                <input type="text" name="testInput" id="textInput2">
+                <input type="button" value="button" id="formBtn">
 
+
+
+            </form>
+        </div>
+    </div>
+</section>
+
+<script src="script.js"></script>
 </body>
 </html>
