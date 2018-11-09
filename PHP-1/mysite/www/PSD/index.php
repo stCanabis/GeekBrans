@@ -201,6 +201,18 @@
     </div>
 </section>
 
+<section class="map">
+
+            <div class="mapContainer">
+                <div class="map" id="map">
+
+                </div>
+            </div>
+
+
+</section>
+
+<script src="jQuery.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
